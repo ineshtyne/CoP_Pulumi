@@ -15,6 +15,7 @@ jobs:
         with:
           command: preview
           stack-name: cop
+          cloud-url: azblob://cop
         env:
           AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
           AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
