@@ -1,4 +1,4 @@
-name: Pulum
+name: pulum
 runtime:
   name: python
   options:
